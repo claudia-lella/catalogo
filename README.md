@@ -1,27 +1,26 @@
-# Catalogo
+## Server di sviluppo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+Esegui `ng serve` per avviare l'applicazione su un server di sviluppo. Passare a `http://localhost:4200/`. L'applicazione si ricaricherà automaticamente se modifichi uno qualsiasi dei file sorgente.
 
-## Development server
+## Database Json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esegui `npm run server` per avviare il file `.json`, inserito nella repository, che si comporterà come database locale. L'applicazione si ricaricherà automaticamente se modifichi uno qualsiasi dei file sorgente.
 
-## Code scaffolding
+## TRACCIA ESERCIZIO
+### Esercitazione Catalogo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Creare una Angular Application composta da una home page che mostri dinamicamente un catalogo di prodotti in vendita.
+Tale catalogo, gestito mediante json-server (sfruttando il file products.json allegato),
+dovrà essere acquisito dall'applicazione mediante invocazione di apposita GET API.
+Per ciascun prodotto, devono essere visualizzate tutte le caratteristiche di cui allo
+schema predisposto e di seguito riepilogate:
 
-## Build
+• Marca
+• Modello
+• Sistema Operativo
+• Memoria
+• Prezzo di vendita
+• Descrizione
+• Immagine
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+_Questo esercizio è stato eseguito all'interno del corso di Generation Italy con l'affiancamento di Accademia del Levante. Ogni diritto è riservato._
