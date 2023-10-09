@@ -1,0 +1,29 @@
+/* cover */
+.cover {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 300px;
+    background-color: #f7f8f8;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/dQjHshukJpz8zFqCpfRYn7.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-img {
+    position: absolute;
+    z-index: 13;
+    width: 400px;
+    height: auto;
+}
+
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    z-index: 12;
+}

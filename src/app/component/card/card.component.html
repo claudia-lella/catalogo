@@ -1,0 +1,15 @@
+<div class="row align-items-center justify-content-center">
+  <div *ngFor="let product of productsChild" class="card col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-12" style="width: 18rem;">
+    <img src="{{product.image}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.brand}} - {{product.model}}</h5>
+      <p class="card-text">{{product.description}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Sistema operativo: {{product.operatingSystem}}</li>
+      <li class="list-group-item">Memoria: {{product.memory}}</li>
+      <li class="list-group-item fw-bold">Prezzo: {{product.price}} €</li>
+    </ul>
+  </div>
+</div>
+
